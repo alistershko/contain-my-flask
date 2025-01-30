@@ -1,0 +1,12 @@
+{
+  "AWSEBDockerrunVersion" : "1",
+  "Image":{
+    "Name": "alisterko/contain-my-flask",
+    "Update": "true"
+  },
+  "Ports":[
+    {
+      "ContainerPort": "3030"
+    }
+  ]
+}
